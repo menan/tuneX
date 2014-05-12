@@ -7,4 +7,4 @@ Uses Wikipedia API and built it using PHP a very long time ago.
 
 
 Demo:
-http://song-explorer.herokuapp.com/index.html
+http://tunex.herokuapp.com/index.html
