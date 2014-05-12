@@ -21,4 +21,8 @@ else if (isset($_GET['t'])){
 
 	echo read_code($code);
 }
+else{
+	header( 'Location: ./index.html' ) ;
+
+}
 ?>
