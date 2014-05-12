@@ -8,7 +8,6 @@
 	vertical-align: baseline;
 	background: transparent;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
 	text-shadow: 1px 1px 1px black;
 	
 }
@@ -36,10 +35,12 @@ p {
 .footer{
 	color:#23a8e0;
 	font-weight: normal;
-	margin: 70px 200px 0px;
+	margin: 70px 190px 0px;
 	font-size: 12px;
 	
 }
+
+
 h1 {
 	font-family: "adelle";
 	font-size:19px;
@@ -57,10 +58,14 @@ img {
 	display:block;
 }
 
-input, a {
+input {
 	font-size:16px;
 	text-decoration:none;
 	color:#1f1f1f;
+}
+
+a {
+	color:white;
 }
 
 /* End CSS Reset */

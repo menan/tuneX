@@ -7,7 +7,7 @@
 		<meta name="keywords" content="error, page, creative, easy, simple, jquery, valid, html, css, contact, form">
 		
 		<!-- Page title -->
-		<title>thisTune - Find missing tags for your tunes like never before.</title>
+		<title>tuneX - Explore missing tags for your songs like never before.</title>
    
 		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="./resources_files/jquery.fancybox-1.3.4.css" media="screen"><!-- fancybox -->
@@ -56,7 +56,7 @@
 				$("#right_side").html(loading_html);
 				$("#left_side").html("");
 				$.ajax({
-  					url: "process.php",
+  					url: "index.php",
 					type: "GET",
    					data: "q=" + str,
   					success: function(html){
@@ -87,7 +87,7 @@
 				<!-- Stop floating -->
 				<div style="clear:both;"></div>
 				<div style="float:left">
-					<h1 class="logo">thisTune</h1></div>
+					<h1 class="logo">tuneX</h1></div>
 				<div id="search" style="float:right">
 					<form name="input" onsubmit="return load_results(input.q.value);">
 						<input type="text" value="The Motto Drake" name="q" class="text"	onfocus="this.value=''" onblur="if (this.value=='')this.value='Type in the song name'">
@@ -104,7 +104,7 @@
 			</div><!-- End error_section -->
 		<div id="content">
 			<div id="right_side">
-				<p class="description">never before. thisTune works 90% of the time perfectly. Thanks to wikipedia for helping us by lending us their database :)  </a><!-- Some description with link at the end -->	
+				<p class="description">Type a song name above with the artist name right beside it to see the info about that song. tuneX works 90% of the time perfectly. </a><!-- Some description with link at the end -->	
 				</p><!-- End description -->
 								
 				
@@ -124,7 +124,7 @@
 					
 			<!-- Stop floating -->
 			<div style="clear:both;"></div>
-			<div class="footer">&copy; Menan Vadivel(@MenanV)</div>
+			<div class="footer">&copy; Menan Vadivel(<a href="http://twitter.com/MenanV" target="_blank">@MenanV</a>)<br /> A BIG thanks to <a href="http://wikipedia.org">Wikipedia</a></div>
 		</div><!-- End container -->
 		
 		<!-- Container shadow -->
